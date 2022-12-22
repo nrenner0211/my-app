@@ -32,13 +32,17 @@ nav.navbar {
   padding: 18px 0;
   position: fixed;
   width: 100%;
+  font-size: 3rem;
   top: 0;
   z-index: 9999;
   transition:  0.32s ease-in-out;
   img {
-    padding-right: 30px;
     max-height: 13rem;
     max-width: 13rem;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
   }
 }
 
@@ -48,14 +52,14 @@ nav.navbar.scrolled {
 }
 
 nav.navbar a.navbar-brand {
-    width: 9%;
+    width: 20%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
-  font-size: 18px;
+  font-size: 1.5rem;
   opacity: 0.75;
 }
 
@@ -106,9 +110,11 @@ span.navbar-text {
 	z-index: 1;
 	transition: 0.3s ease-in-out;
 }
+
 .social-icon a:hover img {
 	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
+
 .navbar-text button {
   font-weight: 700;
   color: #fff;
@@ -194,12 +200,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  background-color: #c0afff;
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
   h1 {
-    font-size: 65px;
+    font-size: 4rem;
     font-weight: 700;
     letter-spacing: 0.8px;
     line-height: 1;
@@ -207,14 +213,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     display: block;
   }
   p {
-    color: #B8B8B8;
-    font-size: 18px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     width: 96%;
   }
   button {
-    background-color:rgba(74, 47, 189, 0.5);
+    background-color:rgba(71, 32, 244, 0.5);
     padding: 15px;
     border-radius: 15px;
     font-weight: 700;
@@ -274,15 +281,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Skills ************/
 
 .skill {
-  padding: 0 0 50px 0;
+  background-color: rgba(192, 175, 255);
+  padding: 7rem 0;
   position: relative;
   h2 {
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: 700;
   }
   p {
     color: #B8B8B8;
-    font-size: 18px;
+    font-size: 1.2rem;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px 0 75px 0;
@@ -302,26 +310,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto;
   position: relative;
 }
+
 .skill-slider .item img {
   width: 50%;
   margin: 0 auto 15px auto;
-}
-.background-image-left {
-  top: 28%;
-  position: absolute;
-  bottom: 0;
-  width: 40%;
-  z-index: -4;
 }
 
 /************ Projects Css ************/
 
 .project {
-  padding: 80px 0;
+  padding: 7rem 0;
   position: relative;
-  background-color: black;
+  background-color: #151515;
   h2 {
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: 700;
     text-align: center;
   }
@@ -333,6 +335,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin: 14px auto 30px auto;
     text-align: center;
     width: 56%;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
   }
 }
 
@@ -409,16 +415,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #623CEA 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
   height: 0;
   transition: 0.4s ease-in-out;
 }
+
 .proj-imgbx:hover::before {
   height: 100%;
 }
+
 .proj-txtx {
   position: absolute;
   text-align: center;
@@ -429,38 +437,33 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 0;
   width: 100%;
 }
+
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
   opacity: 1;
 }
+
 .proj-txtx h4 {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
+
 .proj-txtx span {
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
 }
-.background-image-right {
-  top: 20%;
-  position: absolute;
-  bottom: 0;
-  width: 35%;
-  right: 0;
-  z-index: -4;
-}
 
 /************ Projects Css ************/
 
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #c0afff -5.91%, #623CEA 111.58%);
   padding: 60px 0 200px 0;
   h2 {
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: 700;
     margin-bottom: 30px;
   }
