@@ -59,7 +59,6 @@ export const Banner = () => {
                 <h1>{`Hi, I'm Niki!`} <br/> 
                 <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Developer", "Web Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Junior developer seeking my first position in the web/software development field.</p>
-                  <button><a href="https://www.linkedin.com/in/nicolette-renner/">Let’s Connect <ArrowRightCircle size={25} /></a></button>
                   <button><a href="https://docs.google.com/document/d/1DcumNcxWQ4piU0pmyhQcVcIc5guyQ-cl5WpNBM5FcEw/edit?usp=sharing">View Resumé <ArrowRightCircle size={25} /></a></button>
               </div>}
             </TrackVisibility>
