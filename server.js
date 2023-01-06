@@ -5,7 +5,7 @@ const cors = require("cors");
 require('dotenv').config()
 
 // server used to send send emails
-const app = express());
+const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/", router);
