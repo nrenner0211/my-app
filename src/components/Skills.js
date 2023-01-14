@@ -4,7 +4,6 @@ import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
-
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
@@ -32,20 +31,19 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>I'm a junior full stack developer seeking my first position web development. <br></br> 
-                        I've earned a certificate from University of North Carolina in Full Stack Web Development to add technical expertise to my construction and engineering experience. Professionally trained to design accessible, mobile-first applications. Specializing in React styled components and developing organized, reusable code.</p>
+                        <p>Professionally trained to design accessible, mobile-first applications and to produce excellent documentation. I've earned a certificate from University of North Carolina in Full Stack Web Development to add technical expertise to my construction and engineering experience.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="" />
-                                <h5>React & Next.js</h5>
+                                <h5>JavaScript Frameworks</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="" />
-                                <h5>CSS, Sass, & Styled Components</h5>
+                                <h5>API Integration</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="" />
-                                <h5>JavaScript & Node.js</h5>
+                                <h5>Node.js</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="" />
@@ -57,22 +55,21 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="" />
-                                <h5>Front-end Web Development</h5>
+                                <h5>Front-end Development</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="" />
-                                <h5>Software Quality Assurance</h5>
+                                <h5>Postman API, Selenium</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="" />
-                                <h5>Manual Testing with Postman API</h5>
+                                <h5>Logo Design</h5>
                             </div>
                         </Carousel>
                     </div>
                 </div>
             </div>
         </div>
-        {/* <img className="background-image-left" src={colorSharp} alt="" /> */}
     </section>
   )
 }
