@@ -3,13 +3,13 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
-import projImg4 from "../assets/img/project-img4.png";
-import projImg5 from "../assets/img/project-img5.png";
-import projImg6 from "../assets/img/project-img6.png";
-import projImg7 from "../assets/img/project-img7.png";
+import projImg1 from "../assets/img/proj-img1.webp";
+import projImg2 from "../assets/img/proj-img2.webp";
+import projImg3 from "../assets/img/proj-img3.webp";
+import projImg4 from "../assets/img/proj-img4.webp";
+import projImg5 from "../assets/img/proj-img5.webp";
+import projImg6 from "../assets/img/proj-img6.webp";
+import projImg7 from "../assets/img/proj-img7.webp";
 
 export const Projects = () => {
 
@@ -17,7 +17,7 @@ export const Projects = () => {
     {
       title: "Codex 🤖",
       description: "This cutting-edge app interfaces with the OpenAI ChatGPT API. Codex analyzes code snippets, generates content, and can write cover letters. Go ahead, ask Codex anything!",
-      imgUrl: projImg5,
+      imgUrl: projImg2,
       siteUrl: "https://codex-ai-lovat.vercel.app/",
       source: "https://github.com/nrenner0211/codex-ai"
     },
@@ -48,7 +48,7 @@ export const Projects = () => {
     {
       title: "Dolla Virtual Banking",
       description: "A smooth, responsive online banking experience with scroll animations. Tech stack includes React and styled components",
-      imgUrl: projImg2,
+      imgUrl: projImg5,
       siteUrl: "https://nrenner0211.github.io/smooth-scroll/",
       source: "https://github.com/nrenner0211/smooth-scroll"
     },
