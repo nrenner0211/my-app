@@ -57,9 +57,18 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi, I'm Niki!`} <br/> 
-                <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Developer", "Web Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Junior developer seeking my first position in the web/software development field.</p>
-                  <button><a href="https://docs.google.com/document/d/1DcumNcxWQ4piU0pmyhQcVcIc5guyQ-cl5WpNBM5FcEw/edit?usp=sharing">View Resumé <ArrowRightCircle size={25} /></a></button>
+                  <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Developer", "Web Designer" ]'>
+                    <span className="wrap">
+                      {text}
+                    </span>
+                  </span>
+                </h1>
+                  <p>
+                    Aspiring Full Stack Developer with 1 year of experience in developing, testing, and deploying web applications.
+                  </p>
+                  <button>
+                    <a href="https://docs.google.com/document/d/1DcumNcxWQ4piU0pmyhQcVcIc5guyQ-cl5WpNBM5FcEw/edit?usp=sharing">View Resumé <ArrowRightCircle size={25} /></a>
+                  </button>
               </div>}
             </TrackVisibility>
           </Col>
@@ -67,7 +76,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+                  <img src={headerImg} alt="icon"/>
                 </div>}
             </TrackVisibility>
           </Col>
