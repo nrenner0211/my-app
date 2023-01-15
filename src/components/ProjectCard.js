@@ -9,7 +9,7 @@ export const ProjectCard = ({ title, description, imgUrl, siteUrl, source }) => 
         <img src={imgUrl} alt=''/>
         <div className="proj-txtx">
           <h4>{title}</h4>
-          <p>{description}</p>
+          <span>{description}</span>
           <h6><a href={siteUrl}>Visit {title} <FaArrowAltCircleRight/> </a></h6>
           <h6><a href={source}>Source <DiGitBranch/> </a></h6> 
         </div>

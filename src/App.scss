@@ -25,8 +25,8 @@ body {
     font-family: 'Unbounded', sans-serif;
   }
   img {
-    max-width: fit-content;
-    max-height: fit-content;
+    max-width: 100%;
+    max-height: 100%;
   }
 }
 
@@ -204,25 +204,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-color: #c0afff;
+  background: linear-gradient(90.21deg, #c0afff -5.91%, #623CEA 111.58%);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
   h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 700;
     letter-spacing: 0.8px;
     line-height: 1;
-    margin-bottom: 20px;
+    margin-top: 2.2rem;
     display: block;
   }
   p {
     color: #fff;
-    font-size: 1.5rem;
+    margin-top: 2.2rem;
+    font-size: 1.3rem;
     font-weight: 600;
     letter-spacing: 0.8px;
     line-height: 1.5em;
-    width: 96%;
+    width: 90%;
   }
   button {
     background-color:rgba(71, 32, 244, 0.5);
@@ -230,7 +231,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     border-radius: 15px;
     font-weight: 700;
     font-size: 20px;
-    margin-top: 60px;
+    margin-top: 2.5rem;
     letter-spacing: 0.8px;
     display: flex;
     align-items: center;
@@ -286,8 +287,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Skills ************/
 
 .skill {
-  background-color: rgba(192, 175, 255);
-  padding: 7rem 0;
+  background: linear-gradient(90.21deg, #c0afff -5.91%, #623CEA 111.58%);
+  padding: 10rem;
   position: relative;
   h2 {
     font-size: 3rem;
@@ -324,7 +325,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Projects Css ************/
 
 .project {
-  padding: 7rem 0;
+  padding: 10rem 0;
   position: relative;
   background-color: #151515;
   h2 {
@@ -348,7 +349,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .project .nav.nav-pills {
-  width: 72%;
+  max-width: 100%;
+  min-width: 50%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
@@ -412,7 +414,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 // image container
 .proj-imgbx {
   position: relative;
-  max-height: 30rem;
+  max-height: 14rem;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
@@ -434,8 +436,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .proj-txtx {
   position: absolute;
+  color: white;
   text-align: center;
-  padding: 0 20px;
+  padding: 10px;
   line-height: 1.1em;
   top: 65%;
   left: 50%;
@@ -444,20 +447,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 0;
   width: 100%;
   h4 {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     font-weight: 700;
     letter-spacing: 0.8px;
     line-height: 2em;
   }
   h6 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 2em;
   }
-  p {
-    color: white;
+  span {
     font-style: italic;
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
@@ -470,7 +472,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .contact {
   background: linear-gradient(90.21deg, #c0afff -5.91%, #623CEA 111.58%);
-  padding: 60px 0 200px 0;
+  padding: 7rem 0;
   h2 {
     text-align: center;
     font-size: 3rem;
@@ -479,7 +481,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   img {
     border-radius: 15%;
-    width: 92%;
+    width: 90%;
   }
 }
 
@@ -487,18 +489,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer {
   padding: 0 0 50px 0;
   background-image: url('./assets/img/footer-bg.png');
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   p {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1rem;
     color: #B8B8B8;
     letter-spacing: 0.5px;
     margin-top: 20px;
   }
   img {
-    width: 26%;
+    max-width: 50%;
   }
 }
 

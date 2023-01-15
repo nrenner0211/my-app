@@ -59,7 +59,7 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="" />
-                                <h5>Postman API, Selenium</h5>
+                                <h5>Jest, Postman, Selenium Testing</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="" />

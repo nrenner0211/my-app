@@ -23,7 +23,7 @@ export const Projects = () => {
     },
     {
       title: "Dad-app",
-      description: "Ever wonder if it's a good day to mow? Do you wish to lighten the mood with a silly joke? We made an API for that!",
+      description: "Ever wonder if it's a good day to mow? Do you like dad jokes? We made an app for that!",
       imgUrl: projImg3,
       siteUrl: "https://nrenner0211.github.io/dad_app/",
       source: "https://github.com/nrenner0211/dad_app"

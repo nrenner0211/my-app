@@ -64,7 +64,8 @@ export const Banner = () => {
                   </span>
                 </h1>
                   <p>
-                    Aspiring Full Stack Developer with 1 year of experience in developing, testing, and deploying web applications.
+                    Aspiring Full Stack Developer with over a year of experience in developing, testing, and deploying web applications. <br/>
+                    <span>Let's collaborate</span> on our next big project!
                   </p>
                   <button>
                     <a href="https://docs.google.com/document/d/1DcumNcxWQ4piU0pmyhQcVcIc5guyQ-cl5WpNBM5FcEw/edit?usp=sharing">View Resumé <ArrowRightCircle size={25} /></a>
