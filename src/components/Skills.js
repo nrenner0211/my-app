@@ -31,15 +31,11 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Professionally trained to design accessible, mobile-first applications and to produce excellent documentation. I've earned a certificate from University of North Carolina in Full Stack Web Development to add technical expertise to my construction and engineering experience.</p>
+                        <p>Professionally trained to design accessible, mobile-first applications and to produce excellent documentation. Here are a few of my most used skills and tools:</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="" />
-                                <h5>JavaScript Frameworks</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter3} alt="" />
-                                <h5>API Integration</h5>
+                                <h5>React & Next.js</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="" />
@@ -47,7 +43,7 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="" />
-                                <h5>Mobile-First Development</h5>
+                                <h5>Auditing with Lighthouse</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="" />
@@ -55,7 +51,11 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="" />
-                                <h5>Front-end Development</h5>
+                                <h5>API Integration</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="" />
+                                <h5>MongoDB & MySQL</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="" />
