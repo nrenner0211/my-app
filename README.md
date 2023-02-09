@@ -1,8 +1,8 @@
-# React, Sass, & Bootstrap Portfolio
+# nrennercodes.com
 
 ## Table of Contents
 
-- [React, Sass, \& Bootstrap Portfolio](#react-sass--bootstrap-portfolio)
+- [nrennercodes.com](#nrennercodescom)
   - [Table of Contents](#table-of-contents)
   - [About](#about)
   - [Tech Stack](#tech-stack)
@@ -11,16 +11,17 @@
     - [Install Dependencies](#install-dependencies)
     - [Start Application](#start-application)
   - [Links](#links)
-  - [Contact](#contact)
+  - [Contact 📩](#contact-)
 
 ## About
 
-Welcome! This is a personal portfolio to showcase my favorite projects. This webpage features SVG animations and a smooth, responsive design without compromising on performance. Also features custom React components that are optimized for accessibility and 100% reusable!
+Welcome to the source code for my website, [nrennercodes.com](https://nrennercodes.com). This webpage features SVG animations and a smooth, responsive design that doesn't compromise on performance. Features custom React components that are optimized for accessibility and 100% reusable!
 
 ## Tech Stack
 
 - JavaScript
 - Node.js
+- Express.js
 - Bootstrap
 - React
 - Sass
@@ -41,11 +42,11 @@ Run the command `npm start` in your terminal. You can then view the app on [loca
 
 ## Links
 
-[Repository](https://github.com/nrenner0211/my-app)
+🔗 [Repository](https://github.com/nrenner0211/my-app)
 
-[Deployed](https://nrenner0211.github.io/my-app/)
+🔗 [Deployed](https://nrennercodes.com)
 
-## Contact
+## Contact 📩
 
 [![Linkedin Badge](https://img.shields.io/badge/-nrenner0211-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nicolette-renner/)](https://www.linkedin.com/in/nicolette-renner/)
 [![GitHub Badge](https://img.shields.io/badge/-nrenner0211-7261A3?style=flat-square&logo=Github&logoColor=white&link=https://github.com/nrenner0211)](https://github.com/nrenner0211)
