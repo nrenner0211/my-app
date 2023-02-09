@@ -1,7 +1,7 @@
 {
   "name": "Nicolette Renner's Portfolio",
   "short_name": "Portfolio",
-  "description": "Nicolette Renner's personal portfolio of full stack projects.",
+  "description": "Nicolette Renner's web development portfolio.",
   "icons": [
       {
           "src": "/icon-192x192.webp",

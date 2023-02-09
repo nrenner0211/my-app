@@ -50,7 +50,7 @@ export const NavBar = () => {
                         <a href='https://github.com/nrenner0211'><img src={navIcon2} alt="GitHub Icon" /></a>
                         <a href='https://www.facebook.com/niiiiiiiiiiiiiiiiiiiiiiiik/'><img src={navIcon3} alt="Facebook Icon" /></a>
                     </div>
-                    <button><a href="https://www.linkedin.com/in/nicolette-renner/"><span>Let's Connect</span></a></button>
+                    {/* <button><a href="https://www.linkedin.com/in/nicolette-renner/"><span>Let's Connect</span></a></button> */}
                 </span>
                 </Navbar.Collapse>
             </Container>

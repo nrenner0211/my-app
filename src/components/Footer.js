@@ -9,6 +9,56 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
         <Row className="align-items-center">
+          <Col size={6} sm={5}>
+              <ul>
+                <li>
+                  <h4>See My Progress</h4>
+                </li>
+                <li>
+                  <a href="https://nrenner0211.github.io/my-first-portfolio/">Portfolio v1.0</a> 
+                </li>
+                <li>
+                  <a href="https://nrenner0211.github.io/super-react-portfolio/">Portfolio v2.0</a> 
+                </li>
+              </ul>
+          </Col>
+          <Col size={6} sm={4}>
+              <ul>
+                <li>
+                  <h4>Causes</h4>
+                </li>
+                <li>
+                  <a href="https://www.greenpeace.org/usa/sustainable-agriculture/save-the-bees/">Save the Bees</a>
+                </li>
+                <li>
+                  <a href="https://www.nwf.org/nativeplantfinder/plants">Native Plant Finder</a>
+                </li>
+                <li>
+                  <a href="https://www.who.int/health-topics/mental-health#tab=tab_1">Mental Health Resources</a>
+                </li>
+              </ul>
+          </Col>
+          <Col size={6} sm={3} className="text-center text-sm-end">
+              <ul>
+                <li>
+                  <h4>Contact</h4>
+                </li>
+                <li>
+                  <a href="https://calendly.com/nrennercodes">Calendly</a>
+                </li>
+                <li>
+                  <a href="mailto:nrenner@nrennercodes.com">Email</a>
+                </li>
+                <li>
+                  <a href="https://github.com/nrenner0211">GitHub</a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/nicolette-renner/">LinkedIn</a>
+                </li>
+              </ul>
+          </Col>
+        </Row>
+        <Row className="align-items-center">
           <Col size={12} sm={6}>
             <img src={logo} alt="Logo" />
           </Col>
@@ -18,7 +68,7 @@ export const Footer = () => {
               <a href="https://github.com/nrenner0211"><img src={navIcon2} alt="Icon" /></a>
               <a href="https://www.facebook.com/niiiiiiiiiiiiiiiiiiiiiiiik/"><img src={navIcon3} alt="Facebook Icon" /></a>
             </div>
-            <p>Copyright 2022 Nicolette Renner. All Rights Reserved</p>
+            <p>Copyright 2022 Nicolette Renner. All Rights Reserved.</p>
           </Col>
         </Row>
       </Container>
