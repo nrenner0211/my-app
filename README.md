@@ -15,7 +15,7 @@
 
 ## About
 
-Welcome to the source code for my website, [nrennercodes.com](https://nrennercodes.com). This webpage features SVG animations and a smooth, responsive design that doesn't compromise on performance. Features custom React components that are optimized for accessibility and 100% reusable!
+Welcome to the source code for my website, [nrennercodes.com](https://nrennercodes.com). This website features SVG animations and a smooth, responsive design that doesn't compromise on performance. Features custom React components that are optimized for accessibility and 100% reusable!
 
 ## Tech Stack
 
