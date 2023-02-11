@@ -16,7 +16,7 @@ export const Projects = () => {
   const projects = [
     {
       title: "Codex 🤖",
-      description: "This cutting-edge app interfaces with the OpenAI ChatGPT API. Codex analyzes code snippets, generates content, and can write cover letters. Go ahead, ask Codex anything!",
+      description: "This cutting-edge app interfaces with the OpenAI ChatGPT API. Go ahead, ask Codex anything!",
       imgUrl: projImg2,
       siteUrl: "https://codex-ai-lovat.vercel.app/",
       source: "https://github.com/nrenner0211/codex-ai"
@@ -29,7 +29,7 @@ export const Projects = () => {
       source: "https://github.com/nrenner0211/dad_app"
     },
     {
-      title: "3D Galaxy Resume 🚀",
+      title: "3D Resume 🚀",
       description: "A 3d space-themed resume, because why not? Tech stack includes Vite and Three.js",
       imgUrl: projImg1,
       siteUrl: "https://nrenner0211.github.io/intergalactic-3d-resume/",
@@ -46,7 +46,7 @@ export const Projects = () => {
 
   const projects2 = [
     {
-      title: "Dolla Virtual Banking",
+      title: "Dolla",
       description: "A smooth, responsive online banking experience with scroll animations. Tech stack includes React and styled components",
       imgUrl: projImg5,
       siteUrl: "https://nrenner0211.github.io/smooth-scroll/",
@@ -60,7 +60,7 @@ export const Projects = () => {
       source: "https://github.com/nrenner0211/ecommerce1"
     },
     {
-      title: "Sass Landing",
+      title: "Landing Page",
       description: "A simple marketing landing page built with HTML & Sass",
       imgUrl: projImg4,
       siteUrl: "https://nrenner0211.github.io/sass-landing/",

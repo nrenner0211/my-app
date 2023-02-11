@@ -9,10 +9,13 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
         <Row className="align-items-center">
-          <Col size={6} sm={5}>
+          <Col size={6} sm={6}>
               <ul>
                 <li>
                   <h4>See My Progress</h4>
+                </li>
+                <li>
+                  <a href="https://docs.google.com/document/d/1DcumNcxWQ4piU0pmyhQcVcIc5guyQ-cl5WpNBM5FcEw/edit?usp=sharing">Resumé</a>
                 </li>
                 <li>
                   <a href="https://nrenner0211.github.io/my-first-portfolio/">Portfolio v1.0</a> 
@@ -22,23 +25,7 @@ export const Footer = () => {
                 </li>
               </ul>
           </Col>
-          <Col size={6} sm={4}>
-              <ul>
-                <li>
-                  <h4>Causes</h4>
-                </li>
-                <li>
-                  <a href="https://www.greenpeace.org/usa/sustainable-agriculture/save-the-bees/">Save the Bees</a>
-                </li>
-                <li>
-                  <a href="https://www.nwf.org/nativeplantfinder/plants">Native Plant Finder</a>
-                </li>
-                <li>
-                  <a href="https://www.who.int/health-topics/mental-health#tab=tab_1">Mental Health Resources</a>
-                </li>
-              </ul>
-          </Col>
-          <Col size={6} sm={3} className="text-center text-sm-end">
+          <Col size={6} sm={6} className="text-center text-sm-end">
               <ul>
                 <li>
                   <h4>Contact</h4>
@@ -54,6 +41,38 @@ export const Footer = () => {
                 </li>
                 <li>
                   <a href="https://www.linkedin.com/in/nicolette-renner/">LinkedIn</a>
+                </li>
+              </ul>
+          </Col>
+          <Col size={6} sm={6}>
+              <ul>
+                <li>
+                  <h4>Causes</h4>
+                </li>
+                <li>
+                  <a href="https://www.greenpeace.org/usa/sustainable-agriculture/save-the-bees/">Save the Bees</a>
+                </li>
+                <li>
+                  <a href="https://www.nwf.org/nativeplantfinder/plants">Native Plant Finder</a>
+                </li>
+                <li>
+                  <a href="https://www.who.int/health-topics/mental-health#tab=tab_1">Mental Health Resources</a>
+                </li>
+              </ul>
+          </Col>
+          <Col size={6} sm={6} className="text-center text-sm-end">
+              <ul>
+                <li>
+                  <h4>Directory</h4>
+                </li>
+                <li>
+                  <a href='#home'>Home</a>
+                </li>
+                <li>
+                  <a href='#skills'>Skills</a>
+                </li>
+                <li>  
+                  <a href='#projects'>Projects</a>
                 </li>
               </ul>
           </Col>

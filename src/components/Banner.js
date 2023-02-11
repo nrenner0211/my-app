@@ -68,14 +68,14 @@ export const Banner = () => {
                     <span>Let's collaborate</span>!
                   </p>
                   <Row className="align-items-center">
-                    <Col size={6} sm={4}>
-                      <button>
-                        <a href="https://docs.google.com/document/d/1DcumNcxWQ4piU0pmyhQcVcIc5guyQ-cl5WpNBM5FcEw/edit?usp=sharing">View Resumé <ArrowRightCircle size={25} /></a>
-                      </button>
-                    </Col>
-                    <Col size={6} sm={4}>
+                    <Col size={4} sm={4}>
                       <button>
                         <a href="https://calendly.com/nrennercodes">Skip the emails, schedule a Zoom meeting with one click <ArrowRightCircle size={25} /></a>
+                      </button>
+                    </Col>
+                    <Col size={4} sm={4}>
+                      <button>
+                        <a href="https://docs.google.com/document/d/1DcumNcxWQ4piU0pmyhQcVcIc5guyQ-cl5WpNBM5FcEw/edit?usp=sharing">View Resumé <ArrowRightCircle size={25} /></a>
                       </button>
                     </Col>
                   </Row>
