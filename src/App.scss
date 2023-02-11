@@ -204,11 +204,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     max-width: 85%;
   }
   button {
-    max-width: fit-content;
-    min-height: 10rem;
-    background-color:rgba(71, 32, 244, 0.5);
-    padding: 10px;
-    border-radius: 25px;
+    min-height: 17rem;
+    max-height: 17rem;
+    background-color: transparent;
+    border: none;
+    padding: 1rem;
     font-weight: 500;
     font-size: 1.4rem;
     margin-top: 3rem;
@@ -216,6 +216,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     letter-spacing: 0.8px;
     display: flex;
     align-items: center;
+    border-bottom: transparent solid 2px;
   }
   button a {
     color: #fff;
@@ -231,13 +232,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner button:hover {
-  background-color:rgba(47, 0, 255, 0.6);
-  transition: .3s ease-in-out;
-  transform: scale(1.1);
+  border-bottom:#fff solid 2px;
+  transition: .4s ease-in-out;
 }
 
+// arrow animation
 .banner button:hover svg {
-  margin-left: 25px;
+  margin-left: 1rem;
 }
 
 .banner img {
@@ -260,11 +261,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
-/************ Skills ************/
+/************ Skill Section ************/
 
 .skill {
   background: linear-gradient(90.21deg, #c0afff -5.91%, #623CEA 111.58%);
-  padding: 15em 10em;
+  padding: 15em 0;
   position: relative;
   h2 {
     font-size: 3rem;
@@ -280,7 +281,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill-bx {
-  background: #151515;
+  background: rgba(21,21,21,0.8);
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -288,14 +289,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill-slider {
-  max-width: 80%;
+  overflow: hidden;
+  max-width: 100%;
   margin: 0 auto;
   position: relative;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .skill-slider .item img {
-  width: 50%;
+  max-width: 100%;
+  min-width: 25%;
   margin: 0 auto 15px auto;
 }
 
@@ -391,7 +394,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 // image container
 .proj-imgbx {
   position: relative;
-  max-height: 14rem;
+  min-height: 8rem;
+  max-height: 8rem;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
@@ -415,23 +419,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: absolute;
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: 1rem;
   line-height: 1.1em;
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: 0.5s ease-in-out;
   opacity: 0;
-  width: 100%;
+  max-width: 100%;
   h4 {
+    cursor: pointer;
+    border-bottom: #fff solid 1px;
     font-size: 1.6rem;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 0.8px;
-    line-height: 2em;
+    line-height: 1.3em;
   }
   h6 {
+    font-weight: 600;
+    cursor: pointer;
     font-size: 1.2rem;
-    line-height: 2em;
+    line-height: 1.3rem;
   }
   span {
     font-style: italic;
@@ -445,7 +453,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 1;
 }
 
-/************ Projects Css ************/
+/************ Projects Section ************/
 
 .contact {
   background: linear-gradient(90.21deg, #c0afff -5.91%, #623CEA 111.58%);
@@ -462,7 +470,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-/************ Footer Css ************/
+/************ Footer Section ************/
 .footer {
   padding: 0 0 50px 0;
   background-image: url('./assets/img/footer-bg.png');
@@ -478,7 +486,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   ul {
     list-style: none;
-    padding: 2rem;
+    padding-top: 1rem;
   }
   li a {
     text-decoration: none;
@@ -487,7 +495,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   p {
     font-weight: 400;
     letter-spacing: 0.7px;
-    margin-top: 20px;
+    margin-top: 1rem;
   }
   img {
     max-width: 50%;
@@ -503,6 +511,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 
   .banner {
+    display: block;
     margin-top: 100px;
     img {
       margin-top: 50px;
@@ -510,6 +519,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     }
     h1 {
       font-size: 2.5rem;
+    }
+    button {
+      width: 100%;
     }
   }
 }
@@ -553,5 +565,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
+  .proj-imgbx {
+    min-height: 15rem;
+    max-height: 15rem;
+  }
 }
