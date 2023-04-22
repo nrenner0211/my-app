@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import headerImg from "../assets/img/header-img2.svg";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -11,7 +10,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Virtual Assistant" ];
+  const toRotate = [ "Web Developer", "Full Stack Developer", "Front-End Developer" ];
   const period = 2000;
 
   useEffect(() => {
@@ -51,43 +50,54 @@ export const Banner = () => {
     <section className="banner" id="home">
       <Container>
         <Row className="align-items-center">
-          <Col xs={12} md={6} xl={7}>
+          <Col xs={12} md={12} xl={12}>
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                {/* <span className="tagline">Welcome to my Portfolio</span> */}
                 <h1>{`Hi, I'm Nicolette!`} <br/> 
-                  <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Virtual Assistant" ]'>
+                  <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Full Stack Developer", "Front-End Developer" ]'>
                     <span className="wrap">
                       {text}
                     </span>
                   </span>
                 </h1>
                   <p>
-                    Front-end Developer with over a year of experience in developing, testing, and deploying web applications. <br/>
-                    <span>Let's collaborate</span>!
+                    <h4>
+                      Welcome to my Portfolio! I'm Niki, Web Developer <br/> 
+                      How can I help you?
+                    </h4> 
+                    <br/>
+                    <ul>
+                      <li>
+                        AI Enthusiast
+                      </li>
+                      <li>
+                        Pixel-perfect HTML & CSS
+                      </li>
+                      <li>
+                        Extensive API Integration experience
+                      </li>
+                      <li>
+                        Cutting-edge tech stack - React, Next.js, MongoDB, and TailwindCSS
+                      </li>
+                      <li>
+                        Tech Startup, Freelance, & Bootcamp experience - adaptable and flexible in any role
+                      </li>
+                    </ul>
                   </p>
                   <Row className="align-items-center">
-                    <Col size={4} sm={4}>
+                    <Col size={12} sm={4}>
                       <button>
                         <a href="https://calendly.com/nrennercodes">Skip the emails, schedule a Zoom meeting with one click <ArrowRightCircle size={25} /></a>
                       </button>
                     </Col>
-                    <Col size={4} sm={4}>
+                    <Col size={12} sm={4}>
                       <button>
                         <a href="https://docs.google.com/document/d/1DcumNcxWQ4piU0pmyhQcVcIc5guyQ-cl5WpNBM5FcEw/edit?usp=sharing">View Resumé <ArrowRightCircle size={25} /></a>
                       </button>
                     </Col>
                   </Row>
               </div>}
-            </TrackVisibility>
-          </Col>
-          <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="icon"/>
-                </div>}
             </TrackVisibility>
           </Col>
         </Row>
