@@ -1,0 +1,11 @@
+* {
+    background-color: rgb(207, 249, 249);
+}
+
+proj-imgbx {
+    max-width: 10%;
+}
+
+proj-imgtxt {
+    background-color: blueviolet;
+}

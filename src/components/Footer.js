@@ -2,7 +2,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import logo from "../assets/img/logo2.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.webp";
-import navIcon3 from "../assets/img/nav-icon3.svg";
 
 export const Footer = () => {
   return (
@@ -85,9 +84,8 @@ export const Footer = () => {
             <div className="social-icon">
               <a href="https://www.linkedin.com/in/nicolette-renner/"><img src={navIcon1} alt="Icon" /></a>
               <a href="https://github.com/nrenner0211"><img src={navIcon2} alt="Icon" /></a>
-              <a href="https://www.facebook.com/niiiiiiiiiiiiiiiiiiiiiiiik/"><img src={navIcon3} alt="Facebook Icon" /></a>
             </div>
-            <p>Copyright 2022 Nicolette Renner. All Rights Reserved.</p>
+            <p>Copyright 2024 Nicolette Renner. All Rights Reserved.</p>
           </Col>
         </Row>
       </Container>
