@@ -1,7 +1,7 @@
 {
-  "name": "Nicolette Renner's Portfolio",
-  "short_name": "Portfolio",
-  "description": "Nicolette Renner's web development portfolio.",
+  "name": "Nix Web Dev Nicolette Renner Web Developer Portfolio Website",
+  "short_name": "Web Developer Website",
+  "description": "Minimalist web developer website with about, services, and portfolio sections.",
   "icons": [
       {
           "src": "/icon-192x192.png",
