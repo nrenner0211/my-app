@@ -1,8 +1,8 @@
-# nrennercodes.com
+# nixwebdev.com
 
 ## Table of Contents
 
-- [nrennercodes.com](#nrennercodescom)
+- [nixwebdev.com](#nixwebdevcom)
   - [Table of Contents](#table-of-contents)
   - [About](#about)
   - [Tech Stack](#tech-stack)
@@ -11,20 +11,16 @@
     - [Install Dependencies](#install-dependencies)
     - [Start Application](#start-application)
   - [Links](#links)
-  - [Contact 📩](#contact-)
+  - [Contact](#contact)
 
 ## About
 
-Welcome to the source code for my website, [nrennercodes.com](https://nrennercodes.com). This website features SVG animations and a smooth, responsive design that doesn't compromise on performance. Features custom React components that are optimized for accessibility and 100% reusable!
+Welcome to the source code for my website, [nixwebdev.com](https://nixwebdev.com). This website is under construction!
 
 ## Tech Stack
 
 - JavaScript
 - Node.js
-- Express.js
-- Bootstrap
-- React
-- Sass
 
 ## Installation
 
@@ -44,10 +40,10 @@ Run the command `npm start` in your terminal. You can then view the app on [loca
 
 🔗 [Repository](https://github.com/nrenner0211/my-app)
 
-🔗 [Deployed](https://nrennercodes.com)
+🔗 [Deployed](https://nixwebdev.com)
 
-## Contact 📩
+## Contact
 
-[![Linkedin Badge](https://img.shields.io/badge/-nrenner0211-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nicolette-renner/)](https://www.linkedin.com/in/nicolette-renner/)
-[![GitHub Badge](https://img.shields.io/badge/-nrenner0211-7261A3?style=flat-square&logo=Github&logoColor=white&link=https://github.com/nrenner0211)](https://github.com/nrenner0211)
-[![Gmail Badge](https://img.shields.io/badge/-nrenner0211@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:nrenner0211@gmail.com)](mailto:nrenner0211@gmail.com)
+📩[![Linkedin Badge](https://img.shields.io/badge/-nrenner0211-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nicolette-renner/)](https://www.linkedin.com/in/nicolette-renner/)
+📩[![GitHub Badge](https://img.shields.io/badge/-nrenner0211-7261A3?style=flat-square&logo=Github&logoColor=white&link=https://github.com/nrenner0211)](https://github.com/nrenner0211)
+📩[![Gmail Badge](https://img.shields.io/badge/-nrenner0211@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:nrenner0211@gmail.com)](mailto:nrenner0211@gmail.com)
